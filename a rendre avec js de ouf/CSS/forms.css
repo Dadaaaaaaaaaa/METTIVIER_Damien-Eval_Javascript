@@ -1,0 +1,50 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+*{flex : vrap }
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+.border{border: 2px solid black;}
+.d-flex{display: flex;}
+.ali-pra-ver{align-items: center;}
+.esp-ent{justify-content: space-between;}
+.flex-colone{flex-direction: column;}
+.cen-pra-hor{justify-content: center;}
+.met-hau{align-self: self-start;}
+.ali-tex-gau{text-align: right;}
+.tex-cen{text-align: center;}
+/* Tout le header */
+#logo{width: 5%; height: 30% ;}
+#hea{background-color: rgb(192, 254, 177); padding-left: 3%;padding: 2%;}
+#Tit-hea{font-size: 60px; color: rgb(152, 19, 19);}
+#Sous-tit-hea{margin-top: -30px ; color: rgb(152, 19, 19)}
+#titre{align-items: center;}
+/* barre de navigation */
+.pas-poi{list-style-type: none ;}
+.mar-lis{margin-left: 20px; margin-right: 20px;}
+
+
+/* entrées pour si elles sont conformes ou non*/
+.erreur {border: 2px solid red; color: red;}
+.ok {color : green ;border: 2px solid green;}
+.li {display: none;}
+.non{display: none;}
+.act {display: block;}
+
+/* bloc d'erreur */
+#err{border: 2px solid red; color: rgb(137, 0, 0);background-color: rgba(255, 0, 0, 0.214) ; margin-left: 1%;margin-right: 1%;}
+
+/* mise en page */
+.pa{padding: 2%;}
+.pa2{padding-left: 3% ;}
+.ma{margin: 1%; margin-right: 50%;}
+
+
+/* dark mode */
+.dark #hea {background-color:rgb(44, 92, 31) ;}
+.dark #Tit-hea {color: rgb(246, 199, 199)}
+.dark #Sous-tit-hea {color: rgb(246, 199, 199)}
+.dark .bar-nav {color: aquamarine;}
+.dark{background-color: black;}
+.dark .pa {color : white}
+.dark #err{color : red}
+

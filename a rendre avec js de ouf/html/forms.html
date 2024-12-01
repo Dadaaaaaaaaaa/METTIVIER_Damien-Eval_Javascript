@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/forms.css">
+    <title>Forms</title>
+</head>
+<body id="body" class="esp-ent">
+    <!-- début header -->
+    <header id="hea" class="d-flex ali-pra-ver esp-ent">
+        <img src="../img/DM.png" alt="Logo" id="logo">
+    
+        <div id="titre" class=" flex-colone">
+            <h1 id="Tit-hea">Cartes Hearthstone</h1> <br>
+            <h3 id="Sous-tit-hea">Cartes à collectionner</h5>
+            <button id="bouton">dark mode</button>
+        </div>
+            <!-- barre de navigation -->
+        <nav>
+            <ul id="lst" class="pas-poi d-flex">
+                <li class="mar-lis">
+                    <a href="mon-site.html" class="bar-nav">Page d'accueil</a>
+                </li>                
+                <li class="mar-lis">
+                    <a href="mes-photos.html" class="bar-nav">Détail des cartes</a>
+                </li>
+                <li class="mar-lis">
+                    <a href="mes-videos.html" class="bar-nav">Votre profil</a>
+                </li>
+                <li class="mar-lis">
+                    <a href="forms.html" class="bar-nav">Connexion</a>
+                </li>                
+       
+       
+            </ul>
+        </nav>
+    </header>
+    <!-- fin header -->
+    
+    <h1 class="pa">Connexion</h1>
+    <div id="err" class="non ">
+        <h3>Erreur(s) :</h3>
+        <ul>
+            <li class="li pse pa2">Le pseudo doit comporter 6 caractères ou plus.</li>
+            <li class="li ema pa2">L'e-mail doit comporter 7 caractères ou plus.</li>
+            <li class="li maj pa2">Le mot de passe doit comporter au moins une majuscule, une minuscule, un chiffre et un caractère spécial.</li>
+            <li class="li car pa2">Le mot de pasee doit comporter 10 caractère ou plus</li>
+            <li class="li ide pa2">Les mots de passes entrés ne sont pas identiques.</li>
+        </ul>
+    </div>
+    <form class="d-flex flex-colone esp-ent">
+        <div class="pseudo pa ma">
+            <label for="pseudo" >Pseudo</label> <br>
+            <input type="text" name="pseudo" id="pseudo">
+        </div>
+        <div class="mail pa ma">
+            <label for="mail" class="mail">E-mail</label> <br>
+            <input type="email" name="mail" id="mail">
+        </div>
+        <div class="mdp pa ma">
+            <label for="password">Mot de passe</label> <br>
+            <input type="password" name="password" id="mdp">
+        </div>
+        <div class="mdp2 pa ma">
+            <label for="password">Reconfirmez votre mot de passe</label> <br>
+            <input type="password" name="password" id="mdp2">
+        </div>
+        <input type="submit">
+    </form>
+    <script src="../Javascript/forms.js"></script>
+</body>
+</html>

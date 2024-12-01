@@ -1,0 +1,93 @@
+/* global */
+*{box-sizing: border-box; margin: 0; padding: 0;}
+*{flex : vrap }
+
+.border{border: 2px solid black;}
+.d-flex{display: flex;}
+.ali-pra-ver{align-items: center;}
+.esp-ent{justify-content: space-between;}
+body {font-family: Arial, Helvetica, sans-serif;}
+.flex-colone{flex-direction: column;}
+.cen-pra-hor{justify-content: center;}
+.met-hau{align-self: self-start;}
+.ali-tex-gau{text-align: right;}
+.tex-cen{text-align: center;}
+
+
+/* Tout le header */
+#logo{width: 5%; height: 30% ;}
+#hea{background-color: rgb(192, 254, 177);padding: 2%; padding-left: 3%;}
+#Tit-hea{font-size: 60px; color: rgb(152, 19, 19);}
+#Sous-tit-hea{margin-top: -30px ; color: rgb(152, 19, 19)}
+#titre{align-items: center;}
+/* barre de navigation */
+.pas-poi{list-style-type: none ;}
+.mar-lis{margin-left: 20px; margin-right: 20px;}
+
+
+/* Tout le main */
+.sec{width: 70%; height: 30% ; padding: 2%; }
+.jau{background-color: rgb(241, 255, 177);}
+.rou{background-color: rgb(255, 177, 177);}
+.bleu{background-color: rgb(177, 196, 255);}
+/* images */
+#img-moi{width: 400px;border: 30px solid rgb(238, 183, 32);border-radius: 15%;}
+#vid-moi{width:400px; border: 30px solid rgb(238, 59, 32);border-radius: 15%;}
+#qui-moi{width: 400px; border: 30px solid rgb(32, 35, 238);border-radius: 15%;}
+#esp-pho{padding: 2% 2% 2% 5%;;}
+#esp-vid{padding: 2% 5% 2% 2%;}
+#esp-qui{padding: 2% 2% 2% 5%;}
+/* textes */
+#par-moi{width: 50%;}
+#par-moi2{width: 50%; justify-content: center;}
+#par-moi3{width: 50%;}
+.lien{padding: 20%;}
+.ici{text-decoration: underline;}
+.pa20{padding: 6% ;}
+
+
+/* Tout le footer */
+#foot{background-color: rgb(254, 158, 224);}
+#con-tit{width: 70%;}
+#res{padding-left: 30% ; padding-right: 30%; padding-top: 2%;}
+.pho-res{width: 30%; height: 100% ;}
+#tit-fin{padding-top: 1%;}
+#fin{margin-bottom: 5%; margin-top: 2%;}
+
+
+/* gérer selon taille de l'écran */
+@media only screen and (max-width: 1000px) {
+    #img-moi, #vid-moi, #qui-moi{width: 50%; height: 50%;}
+    #sec1, #sec2, #sec3{flex-direction: column; align-items: center;}
+    #lst{flex-direction: column; }
+}
+
+
+
+/* menu cliquant */
+.mar-lis2{margin : 20px 100px 20px 100px; }
+.sec2{width: 80%; height: 30% ; padding: 2%;background-color: rgb(238, 148, 238);}
+.bor{border : rgb(134, 54, 134) ;border-bottom-style: solid;}
+.tab-active{color: white;}
+.content {display: none;}
+.active {display: block;}
+
+
+
+/* dark mode */ 
+.dark{background-color: black;}
+
+.dark #hea {background-color:rgb(44, 92, 31) ;}
+.dark #Tit-hea {color: rgb(246, 199, 199)}
+.dark #Sous-tit-hea {color: rgb(246, 199, 199)}
+.dark .jau {background-color:rgb(121, 107, 0) ;}
+.dark .pa20 {color : white}
+.dark .rou{background-color: rgb(133, 8, 8);}
+.dark .bleu{background-color: rgb(37, 57, 116);}
+.dark #foot{background-color: rgb(125, 18, 143);}
+.dark .bar-nav {color: aquamarine;}
+.dark #con-tit {color: white;}
+.dark #fin {color: white;}
+
+.dark .sec2{background-color:rgb(134, 54, 134) ;}
+.dark .bor {border : rgb(238, 148, 238);border-bottom-style: solid;}
